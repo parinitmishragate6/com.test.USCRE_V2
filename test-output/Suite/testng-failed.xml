@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="UnitTest(failed)">
+    <classes>
+      <class name="testCase.Verify_HomeScreenUscre">
+        <methods>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="validLogin"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCase.Verify_HomeScreenUscre -->
+    </classes>
+  </test> <!-- UnitTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

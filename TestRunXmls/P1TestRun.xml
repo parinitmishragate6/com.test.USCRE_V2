@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="P1 Tests" verbose="1">
+
+  <test name="P1 Test Run">
+
+	<groups>
+		<run>
+			<include  name="P1"  />
+		</run>
+	</groups>
+
+    <classes>
+      <class name="testcases.VerifyHomeScreen2" />
+    </classes>
+    
+  </test> <!-- Default test -->
+
+</suite> <!-- Default suite -->
